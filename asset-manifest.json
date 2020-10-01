@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/grid_resize/static/css/main.0d2926a1.chunk.css",
-    "main.js": "/grid_resize/static/js/main.a4245cb4.chunk.js",
-    "main.js.map": "/grid_resize/static/js/main.a4245cb4.chunk.js.map",
+    "main.js": "/grid_resize/static/js/main.9d1b1347.chunk.js",
+    "main.js.map": "/grid_resize/static/js/main.9d1b1347.chunk.js.map",
     "runtime-main.js": "/grid_resize/static/js/runtime-main.5d92b789.js",
     "runtime-main.js.map": "/grid_resize/static/js/runtime-main.5d92b789.js.map",
     "static/js/2.4abfe1fd.chunk.js": "/grid_resize/static/js/2.4abfe1fd.chunk.js",
     "static/js/2.4abfe1fd.chunk.js.map": "/grid_resize/static/js/2.4abfe1fd.chunk.js.map",
     "index.html": "/grid_resize/index.html",
-    "precache-manifest.90353ade7ecd46bbbcfcfd000dc74b2e.js": "/grid_resize/precache-manifest.90353ade7ecd46bbbcfcfd000dc74b2e.js",
+    "precache-manifest.3eff3ed7f212b8bd56d8a7568c1dff03.js": "/grid_resize/precache-manifest.3eff3ed7f212b8bd56d8a7568c1dff03.js",
     "service-worker.js": "/grid_resize/service-worker.js",
     "static/css/main.0d2926a1.chunk.css.map": "/grid_resize/static/css/main.0d2926a1.chunk.css.map",
     "static/js/2.4abfe1fd.chunk.js.LICENSE.txt": "/grid_resize/static/js/2.4abfe1fd.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.5d92b789.js",
     "static/js/2.4abfe1fd.chunk.js",
     "static/css/main.0d2926a1.chunk.css",
-    "static/js/main.a4245cb4.chunk.js"
+    "static/js/main.9d1b1347.chunk.js"
   ]
 }
