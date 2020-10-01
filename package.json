@@ -2,6 +2,7 @@
   "name": "grid",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jeriko123.github.io/grid_resize",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -13,7 +14,8 @@
     "react-dom": "^16.13.1",
     "react-resize-aware": "^3.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "use-resize-observer": "^6.1.0"
   }
 }
