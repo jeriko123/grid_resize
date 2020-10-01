@@ -16,13 +16,12 @@ const Grid = (props) => {
     overflow: "auto",
 
     maxWidth: sizes.width - 150,
-    minWidth: 200,
+    minWidth: 381,
   };
 
-    const mainStyle = {
-      minWidth: sizes.width - leftStyle.maxWidth,
-    };
-  
+  // const mainStyle = {
+  //   minWidth: sizes.width - leftStyle.maxWidth,
+  // };
 
   const handleLeftMenu = () => {
     setLeftMenu(!leftMenu);
@@ -45,7 +44,7 @@ const Grid = (props) => {
           Left Your content here. Size: {width}x{height})
         </div>
       )}
-      <div class="main-menu" style={mainStyle}>
+      <div class="main-menu">
         main
         <div>
           <button onClick={handleLeftMenu}>Handle</button>
