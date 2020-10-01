@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Grid.css";
 import useResizeAware from "react-resize-aware";
 import useResizeObserver from "use-resize-observer";
+import LoremText from "./LoremText/LoremText";
 
 const Grid = (props) => {
   const [resizeListener, sizes] = useResizeAware();
@@ -18,9 +19,10 @@ const Grid = (props) => {
     minWidth: 200,
   };
 
-//   const mainStyle = {
-//     width: sizes.width - width - 200,
-//   };
+    const mainStyle = {
+      minWidth: sizes.width - leftStyle.maxWidth,
+    };
+  
 
   const handleLeftMenu = () => {
     setLeftMenu(!leftMenu);
@@ -43,11 +45,12 @@ const Grid = (props) => {
           Left Your content here. Size: {width}x{height})
         </div>
       )}
-      <div class="main-menu" >
+      <div class="main-menu" style={mainStyle}>
         main
         <div>
           <button onClick={handleLeftMenu}>Handle</button>
         </div>
+        <LoremText />
       </div>
       <div class="right-menu">rights</div>
       <div class="console">console</div>
